@@ -1,31 +1,34 @@
-<h1 align="center">
+<h1>
   <br>
   <img src="https://raw.githubusercontent.com/ArjunSrivastava1/commit-linter/main/assets/icon.svg" alt="commit-linter" width="100">
   <br>
-  🌳 commit-linter
-  <br>
 </h1>
 
-<h4 align="center">Automate Conventional Commits with beautiful feedback & Git hooks.</h4>
+<h4>A 'git commit' messages tool for ease of coding</h4>
 
-<p align="center">
+<p>
   <a href="https://golang.org"><img src="https://img.shields.io/badge/Go-1.21+-00ADD8?logo=go&logoColor=white" alt="Go Version"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-GPL%20v2-blue.svg" alt="License"></a>
   <a href="https://github.com/ArjunSrivastava1/commit-linter/releases"><img src="https://img.shields.io/github/v/release/ArjunSrivastava1/commit-linter" alt="Release"></a>
   <a href="https://goreportcard.com/report/github.com/ArjunSrivastava1/commit-linter"><img src="https://goreportcard.com/badge/github.com/ArjunSrivastava1/commit-linter" alt="Go Report Card"></a>
 </p>
 
-<p align="center">
+<p>
+  <a href="#-about">About</a> •
   <a href="#-features">Features</a> •
   <a href="#-quick-start">Quick Start</a> •
-  <a href="#-Usage">Usage</a> •
+  <a href="#-usage">Usage</a> •
   <a href="#-team-configuration">Configuration</a> •
   <a href="#-contributing">Contributing</a>
 </p>
 
-<p align="center">
+<p>
   <img src="https://raw.githubusercontent.com/ArjunSrivastava1/commit-linter/main/assets/demo.gif" alt="Demo" width="600">
 </p>
+
+## About
+
+commit-linter is a command line interface (CLI) tool written in GO that enforces standards for git commits with elegance and precision. It validates commit messages in real-time, provides actionable feedback, and seamlessly integrates with Git to maintain consistency across your project's history. 
 
 ## ✨ Features
 
@@ -43,7 +46,7 @@
 go install github.com/ArjunSrivastava1/commit-linter/cmd/commit-lint@latest
 ```
 
-### 🎯 Basic Usage
+## 🎯 Basic Usage
 ```bash
 # Validate a message
 commit-lint "feat(auth): add login"
