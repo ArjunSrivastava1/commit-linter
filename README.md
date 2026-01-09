@@ -1,12 +1,3 @@
-# **🎨 YOU'RE RIGHT! LET'S SIMPLIFY & ADD VISUAL POP**
-
-Too long, too text-heavy. Let's create **scannable, visually appealing READMEs** with better hierarchy and color.
-
-## **📄 1. COMMIT-LINTER README (SIMPLIFIED & BEAUTIFIED)**
-
-**File: `commit-linter/README.md`**
-
-```markdown
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/ArjunSrivastava1/commit-linter/main/assets/icon.svg" alt="commit-linter" width="100">
