@@ -58,7 +58,6 @@ commit-lint --last --count 3
 ## 📊 Demo
 
 ### ✅ Success Case
-```bash
 $ commit-lint "feat(auth): add JWT authentication"
 
 ┌─────────────────────────────────────────────┐
@@ -68,10 +67,8 @@ $ commit-lint "feat(auth): add JWT authentication"
 │ Scope:   auth                      ✅      │
 │ Length:  24 chars                  ✅      │
 └─────────────────────────────────────────────┘
-```
 
 ### ❌ Failure Case
-```bash
 $ commit-lint "fix bug"
 
 ┌─────────────────────────────────────────────┐
@@ -84,7 +81,7 @@ $ commit-lint "fix bug"
 │ • Use: fix: resolve authentication bug     │
 │ • Or:  fix(api): handle null response      │
 └─────────────────────────────────────────────┘
-```
+
 
 ## 🛠️ Usage
 
@@ -114,16 +111,6 @@ rules:
   subject-max-length: 72
 ```
 
-## 📁 Project Structure
-```
-commit-linter/
-├── cmd/commit-lint/          # CLI entry
-├── internal/linter/          # Validation engine
-├── internal/formatter/       # Beautiful output
-├── internal/git/             # Git integration
-└── README.md                 # This file
-```
-
 ## 🤝 Contributing
 
 1. Fork & clone
@@ -142,4 +129,3 @@ GPL v2.0 - See [LICENSE](LICENSE)
 <p align="center">
   Made with ❤️ by <a href="https://github.com/ArjunSrivastava1">Arjun Srivastava</a>
 </p>
-```
