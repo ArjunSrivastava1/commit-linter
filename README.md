@@ -18,9 +18,9 @@
 <p align="center">
   <a href="#-features">Features</a> •
   <a href="#-quick-start">Quick Start</a> •
-  <a href="#-demo">Demo</a> •
-  <a href="#-usage">Usage</a> •
-  <a href="#-project-structure">Structure</a>
+  <a href="#-Usage">Usage</a> •
+  <a href="#-team-configuration">Configuration</a> •
+  <a href="#-contributing">Contributing</a>
 </p>
 
 <p align="center">
@@ -55,38 +55,7 @@ commit-lint --install
 commit-lint --last --count 3
 ```
 
-## 📊 Demo
-
-### ✅ Success Case
-```bash
-$ commit-lint "feat(auth): add JWT authentication"
-
-┌─────────────────────────────────────────────┐
-│ 🌳 COMMIT MESSAGE VALIDATION - 95/100       |
-├─────────────────────────────────────────────┤
-│ Type:    feat (New feature)        ✅      │
-│ Scope:   auth                      ✅      │
-│ Length:  24 chars                  ✅      │
-└─────────────────────────────────────────────┘
-```
-
-### ❌ Failure Case
-```bash
-$ commit-lint "fix bug"
-
-┌─────────────────────────────────────────────┐
-│ ❌ COMMIT VALIDATION FAILED - 0/100         │
-├─────────────────────────────────────────────┤
-│ Type:    Missing                   ❌      │
-│ Length:  7 chars (min 10)          ❌      │
-├─────────────────────────────────────────────┤
-│ 💡 SUGGESTIONS:                            │
-│ • Use: fix: resolve authentication bug     │
-│ • Or:  fix(api): handle null response      │
-└─────────────────────────────────────────────┘
-```
-
-## 🛠️ Usage
+### 🛠️ Usage
 
 ### Git Hook Automation
 ```bash
@@ -105,7 +74,19 @@ git commit -m "feat: add feature"  # ✅ Allowed
   run: commit-lint --last-commit
 ```
 
-### Team Configuration
+### Validate Git History
+```bash
+# Check last commit
+commit-lint --last-commit
+
+# Check range of commits
+commit-lint --range HEAD~5..HEAD
+
+# Check all commits in branch
+commit-lint --branch main
+```
+
+## ⚙️ Team Configuration
 ```yaml
 # .commitlint.yml
 rules:
