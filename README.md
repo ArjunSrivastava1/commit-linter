@@ -9,7 +9,6 @@
 <p>
   <a href="https://golang.org"><img src="https://img.shields.io/badge/Go-1.21+-00ADD8?logo=go&logoColor=white" alt="Go Version"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-GPL%20v2-blue.svg" alt="License"></a>
-  <a href="https://github.com/ArjunSrivastava1/commit-linter/releases"><img src="https://img.shields.io/github/v/release/ArjunSrivastava1/commit-linter" alt="Release"></a>
   <a href="https://goreportcard.com/report/github.com/ArjunSrivastava1/commit-linter"><img src="https://goreportcard.com/badge/github.com/ArjunSrivastava1/commit-linter" alt="Go Report Card"></a>
 </p>
 
@@ -114,5 +113,14 @@ GPL v2.0 - See [LICENSE](LICENSE)
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/ArjunSrivastava1">Arjun Srivastava</a>
+  Built with ❤️ by <a href="https://github.com/ArjunSrivastava1">Arjun Srivastava</a>
 </p>
+
+<p align="center">
+  <a href="https://github.com/ArjunSrivastava1/commit-linter/issues">Report Bug</a> • 
+  <a href="https://github.com/ArjunSrivastava1/commit-linter/issues">Request Feature</a> •
+  <a href="https://github.com/ArjunSrivastava1/enva">enva</a> •
+  <a href="https://github.com/ArjunSrivastava1/port-scanner">port-scanner</a>
+</p>
+
+<p align="center">
