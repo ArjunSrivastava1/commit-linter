@@ -42,7 +42,7 @@ commit-linter is a command line interface (CLI) tool written in GO that enforces
 ### 📦 Installation
 ```bash
 # One-liner install
-go install github.com/ArjunSrivastava1/commit-linter/cmd/commit-lint@latest
+go install github.com/ArjunSrivastava1/commit-linter
 ```
 
 ## 🎯 Basic Usage
